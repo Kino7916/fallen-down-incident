@@ -1,0 +1,161 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Fallen Down Incident">
+	<main>
+		<div class="real">
+			<img src="/brand.png" alt="">
+		</div>
+
+		<h2>July 6th, 2024 Incident</h2>
+		<hr>
+		<p>
+			A couple of members from the community have decided to do a gamenights in a Discord Voice Channel.
+			They play the Discord Activity called <code>Death by AI</code>. A fun game where the AI predicts your death based from the prompt and your actions.
+			It had quite the accident to make a memorial day for the Fallen Down Community.
+			After the incident the administrator, Yora, decides to make community changes after a long time.
+		</p>
+
+		<h3>Community Changelog</h3>
+		<ul>
+			<li>Pat has invented "okay, so you see.." an undoubtedly amazing substitute for "Hear me out"</li>
+			<li>Yora will give you iframes if you ping her (Proven by @Kali (@RelevantZone) )</li>
+			<li>Sukuna hosting the best death by AI rounds in FD General VC</li>
+			<li>never ping Eric</li>
+			<li>what ban??</li>
+		</ul>
+
+		<h3>Documentaries</h3>
+		<div class="docs">
+			<picture>
+				<img src="/sukuna-cook-pat.png" alt="">
+				<details>
+					<summary>Ok, so you see</summary>
+					After being confronted by such kind of prompt, the user 'pat' has decided to make attempts to seduce sukuna.
+				</details>
+			</picture>
+			<picture>
+				<img src="/soulshatter-furi.png" alt="">
+				<details>
+					<summary>Soulshatters Incident</summary>
+					The surprising decision from the user pat took action to do such (idk anymore)
+				</details>
+			</picture>
+			<picture>
+				<img src="/i-frames.png" alt="">
+				<details>
+					Proven by @Kali (@RelevantZone), successfull attempts were made to survive the sealed fate from Death AI by taking action for <code>Yora gave me I-Frames</code>.
+					<summary>
+						Ability of I-Frames
+					</summary>
+				</details>
+			</picture>
+		</div>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 720px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 16px;
+		line-height: 1.6;
+
+	}
+	
+	hr {
+		opacity: 0.3;
+	}
+
+	.real img {
+		width: 100%;
+	}
+
+	.docs {
+		padding: 24px 0;
+		background-color: hsla(240, 3%, 6%, 0.425);
+	}
+
+	picture {
+		width: 100%;
+		margin: 24px 0;
+		gap: 24px;
+
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	picture details {
+		max-width: 300px;
+		margin-bottom: 1.5rem;
+	}
+
+	picture img {
+		aspect-ratio: 2 / 1;
+		width: 300px;
+	}
+
+	.astro-a {
+		position: absolute;
+		top: -32px;
+		left: 50%;
+		transform: translatex(-50%);
+		width: 220px;
+		height: auto;
+		z-index: -1;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		margin-bottom: 2rem;
+		border: 1px solid rgba(var(--accent-light), 25%);
+		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+	.instructions code {
+		font-size: 0.8em;
+		font-weight: bold;
+		background: rgba(var(--accent-light), 12%);
+		color: rgb(var(--accent-light));
+		border-radius: 4px;
+		padding: 0.3em 0.4em;
+	}
+	.instructions strong {
+		color: rgb(var(--accent-light));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 2rem;
+		padding: 0;
+	}
+
+	@media (min-width: 720px) {
+		picture {
+			display: grid;
+			grid-template-columns: 320px 1fr;
+		}
+
+		.docs {
+			padding: 24px 1rem;
+		}
+	}
+</style>
